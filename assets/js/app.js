@@ -383,7 +383,7 @@ views.about = async () => `
   <section><div class="wrap">
     <div class="sec-head"><div><span class="eyebrow">Team</span><h2>Founder and Director</h2></div></div>
     <div class="profile">
-      <img src="assets/img/founder.svg" alt="Photo placeholder for Dr Tej Bahadur Shahi">
+      <img src="assets/img/founder.jpg" alt="Photo placeholder for Dr Tej Bahadur Shahi">
       <div class="stack" style="gap:16px">
         <div><h3 style="font-size:1.6rem">Dr Tej Bahadur Shahi</h3><p class="muted">Founder and Director · PhD, Central Queensland University</p></div>
         <p>Dr Shahi is a computer scientist working where machine learning, image processing and remote sensing meet. He is a Postdoctoral Fellow in the School of Computer Science at Queensland University of Technology, where his work applies AI, drones and image processing to agricultural systems.</p>
