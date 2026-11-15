@@ -8,8 +8,16 @@
     "theme": "Explainable GeoAI for Earth observation",
     "summary": "A geospatial foundation model pre-trained on multi-sensor, multi-year satellite imagery of the Terai, hills and mountains, adapted with few local labels to map crops, rangelands, forests, urban growth and hazards for SDG reporting.",
     "partners": "Open to universities, government agencies and NGOs in Nepal",
-    "outputs": ["ndvi-fusion-2021", "pasture-obia-clustering-2025"],
-    "links": [["Read the research agenda post", "#post-geospatial-ai-for-nepal"]],
+    "outputs": [
+      "ndvi-fusion-2021",
+      "pasture-obia-clustering-2025"
+    ],
+    "links": [
+      [
+        "Read the research agenda post",
+        "#post-geospatial-ai-for-nepal"
+      ]
+    ],
     "image": "assets/img/research/pasture-clusters-multiyear.jpg"
   },
   {
@@ -21,7 +29,10 @@
     "theme": "Explainable GeoAI for Earth observation",
     "summary": "Interpretable models for satellite image time series that track grassland dynamics and vegetation health and show which bands, seasons and features drive each prediction, so that land managers can trust and act on the results.",
     "partners": "Open to research and industry partners",
-    "outputs": ["pasture-monitoring-review-2025", "botanicx-ai-2023"],
+    "outputs": [
+      "pasture-monitoring-review-2025",
+      "botanicx-ai-2023"
+    ],
     "links": [],
     "image": "assets/img/research/pasture-segments.jpg"
   },
@@ -34,8 +45,16 @@
     "theme": "Drones and AI for agriculture",
     "summary": "Open, labelled drone datasets for Nepal's main crops, lightweight models that run on phones and drones, and simple flight protocols for agricultural extension workers.",
     "partners": "Farmer cooperatives, agricultural colleges and research stations",
-    "outputs": ["crop-disease-uav-review-2023", "weed-detection-uav-2023"],
-    "links": [["Read: what drones can (and can't yet) do", "#post-drones-for-nepal-farms"]],
+    "outputs": [
+      "crop-disease-uav-review-2023",
+      "weed-detection-uav-2023"
+    ],
+    "links": [
+      [
+        "Read: what drones can (and can't yet) do",
+        "#post-drones-for-nepal-farms"
+      ]
+    ],
     "image": "assets/img/research/uav-weed-samples.jpg"
   },
   {
@@ -47,7 +66,9 @@
     "theme": "Multi-modal data intelligence for society",
     "summary": "Combining satellite and drone imagery with socio-economic indicators to map flood and landslide hazards, and the people and assets exposed to them, for disaster preparedness and sustainability planning.",
     "partners": "Disaster-management agencies, municipalities and NGOs",
-    "outputs": ["spatial-deep-learning-2022"],
+    "outputs": [
+      "spatial-deep-learning-2022"
+    ],
     "links": [],
     "image": "assets/img/research/pasture-clusters-site1.jpg"
   },
@@ -60,22 +81,17 @@
     "theme": "NLP for low-resource languages",
     "summary": "Extending the NepEMO dataset into a wider set of open Nepali benchmarks, and building small, efficient models for Devanagari, Roman Nepali and code-mixed text.",
     "partners": "Universities and language communities in Nepal",
-    "outputs": ["nepemo-2025", "nepali-sentiment-hybrid-2025"],
-    "links": [["NepEMO dataset on GitHub", "https://github.com/tejshahi/Nepali-Reddit-NepEMO-"]],
+    "outputs": [
+      "nepemo-2025",
+      "nepali-sentiment-hybrid-2025"
+    ],
+    "links": [
+      [
+        "NepEMO dataset on GitHub",
+        "https://github.com/tejshahi/Nepali-Reddit-NepEMO-"
+      ]
+    ],
     "image": "assets/img/research/nepemo-emotions.png"
-  },
-  {
-    "id": "foragecaster",
-    "title": "ForageCaster: pasture-type mapping from Sentinel-2",
-    "status": "Completed",
-    "stage": "Completed · founder's postdoctoral research",
-    "period": "Three-year project, completed 2026",
-    "theme": "Explainable GeoAI for Earth observation",
-    "summary": "Mapping pasture types across farms from Sentinel-2 satellite time series, including a label-free, object-based clustering method that reached 86–88% agreement (NMI) with reference data. Results were shared with industry partners and stakeholders.",
-    "partners": "Queensland University of Technology (QUT), Australia",
-    "outputs": ["pasture-obia-clustering-2025", "pasture-monitoring-review-2025"],
-    "links": [["Clustering code on GitHub", "https://github.com/tejshahi/OBIA-clusters-v2"]],
-    "image": "assets/img/research/pasture-clusters-panel.jpg"
   },
   {
     "id": "phd-drones-crops",
@@ -86,7 +102,12 @@
     "theme": "Drones and AI for agriculture",
     "summary": "Multispectral drone imaging and machine learning to estimate crop disease severity and yield, including a cooperative scheme of vegetation indices for peanut late leaf spot (R² up to about 0.79) and reviews of drones for precision agriculture.",
     "partners": "Central Queensland University, Australia",
-    "outputs": ["peanut-lls-2023", "peanut-yield-2023", "precision-agri-uav-review-2022", "crop-disease-uav-review-2023"],
+    "outputs": [
+      "peanut-lls-2023",
+      "peanut-yield-2023",
+      "precision-agri-uav-review-2022",
+      "crop-disease-uav-review-2023"
+    ],
     "links": [],
     "image": "assets/img/research/uav-cotton-field.jpg"
   },
@@ -99,7 +120,9 @@
     "theme": "Drones and AI for agriculture",
     "summary": "Multi-class weed segmentation in a cotton field from 201 drone images; a UNet model with an EfficientNetB0 backbone reached an F1-score of 88%.",
     "partners": "Collaborative research",
-    "outputs": ["weed-detection-uav-2023"],
+    "outputs": [
+      "weed-detection-uav-2023"
+    ],
     "links": [],
     "image": "assets/img/research/uav-weed-samples.jpg"
   },
@@ -112,7 +135,9 @@
     "theme": "Explainable AI",
     "summary": "A deep-learning model that identifies ten tomato leaf conditions with 99% test accuracy and explains each decision with Grad-CAM and LIME.",
     "partners": "Collaborative research",
-    "outputs": ["botanicx-ai-2023"],
+    "outputs": [
+      "botanicx-ai-2023"
+    ],
     "links": [],
     "image": "assets/img/research/tomato-leaf-diseases.jpg"
   },
@@ -125,8 +150,15 @@
     "theme": "NLP for low-resource languages",
     "summary": "An open, manually labelled dataset of 4,462 Nepali Reddit posts (2019–2025) with five emotions and three sentiment classes, in English, Roman Nepali, Devanagari and code-mixed text.",
     "partners": "Collaborative research",
-    "outputs": ["nepemo-2025"],
-    "links": [["Dataset on GitHub", "https://github.com/tejshahi/Nepali-Reddit-NepEMO-"]],
+    "outputs": [
+      "nepemo-2025"
+    ],
+    "links": [
+      [
+        "Dataset on GitHub",
+        "https://github.com/tejshahi/Nepali-Reddit-NepEMO-"
+      ]
+    ],
     "image": "assets/img/research/nepemo-trends.png"
   }
 ]
