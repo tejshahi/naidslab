@@ -261,7 +261,7 @@ views.post = async slug => {
       <h1 style="max-width:22ch">${esc(p.title)}</h1>
       <div class="post-meta"><span>${fmtDate(p.date)}</span><span>·</span><span>${esc(p.author)}</span><span>·</span><span>${esc(p.category)}</span></div></div></div>
     <section><div class="wrap"><article class="prose">${body}</article>
-      <div class="author-box"><img src="assets/img/founder.svg" alt=""><div><strong>${esc(p.author)}</strong><p class="muted" style="font-size:.9rem">Founder and Director, NAiDS Lab</p></div></div>
+      <div class="author-box"><img src="assets/img/founder.jpg" alt=""><div><strong>${esc(p.author)}</strong><p class="muted" style="font-size:.9rem">Founder and Director, NAiDS Lab</p></div></div>
     </div></section>
     ${related.length ? `<section class="tint"><div class="wrap"><div class="sec-head"><div><h2>More from the blog</h2></div><a class="link" href="#blog">All posts →</a></div><div class="grid g3">${related.map(postCard).join("")}</div></div></section>` : ""}`;
 };
