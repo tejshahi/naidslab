@@ -261,7 +261,7 @@ views.post = async slug => {
       <h1 style="max-width:22ch">${esc(p.title)}</h1>
       <div class="post-meta"><span>${fmtDate(p.date)}</span><span>·</span><span>${esc(p.author)}</span><span>·</span><span>${esc(p.category)}</span></div></div></div>
     <section><div class="wrap"><article class="prose">${body}</article>
-      <div class="author-box"><img src="assets/img/founder.jpg" alt=""><div><strong>${esc(p.author)}</strong><p class="muted" style="font-size:.9rem">Founder and Director, NAiDS Lab</p></div></div>
+      <div class="author-box"><img src="assets/img/founder.png" alt=""><div><strong>${esc(p.author)}</strong><p class="muted" style="font-size:.9rem">Founder and Director, NAiDS Lab</p></div></div>
     </div></section>
     ${related.length ? `<section class="tint"><div class="wrap"><div class="sec-head"><div><h2>More from the blog</h2></div><a class="link" href="#blog">All posts →</a></div><div class="grid g3">${related.map(postCard).join("")}</div></div></section>` : ""}`;
 };
@@ -383,7 +383,7 @@ views.about = async () => `
   <section><div class="wrap">
     <div class="sec-head"><div><span class="eyebrow">Team</span><h2>Founder and Director</h2></div></div>
     <div class="profile">
-      <img src="assets/img/founder.svg" alt="Photo placeholder for Dr Tej Bahadur Shahi">
+      <img src="assets/img/founder.png" alt="Photo placeholder for Dr Tej Bahadur Shahi">
       <div class="stack" style="gap:16px">
         <div><h3 style="font-size:1.6rem">Dr Tej Bahadur Shahi</h3><p class="muted">Founder and Director · PhD, Central Queensland University</p></div>
         <p>Dr Shahi is a computer scientist working where machine learning, image processing and remote sensing meet. He is a Postdoctoral Fellow in the School of Computer Science at Queensland University of Technology, where his work applies AI, drones and image processing to agricultural systems.</p>
