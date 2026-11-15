@@ -1,6 +1,6 @@
 @echo off
 REM ------------------------------------------------------------
-REM  NAiDS Lab website - local preview
+REM  HIDI Lab website - local preview
 REM  Double-click this file to test the site before pushing.
 REM  Close this window (or press Ctrl+C) to stop the preview.
 REM ------------------------------------------------------------
@@ -28,7 +28,7 @@ exit /b
 
 :run
 echo.
-echo  NAiDS Lab preview running at:  http://localhost:%PORT%
+echo  HIDI Lab preview running at:  http://localhost:%PORT%
 echo  Your browser will open in a moment.
 echo  Leave this window open while testing. Close it to stop.
 echo.

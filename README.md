@@ -1,4 +1,4 @@
-# HIDI website
+# HIDI Lab website
 
 Static website for HIDI, hosted free on GitHub Pages at **hidi.org**.
 
