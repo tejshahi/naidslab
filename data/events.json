@@ -1,13 +1,24 @@
 [
   {
-    "id": "seminar-series-launch",
-    "title": "NAiDS Seminar Series: launch talk",
+    "id": "seminar-geoai-sdg",
+    "title": "HIDI Seminar Series launch: explainable AI for Earth observation",
     "type": "Seminar",
     "date": "",
     "time": "",
     "location": "Online",
-    "description": "The first talk in our free online seminar series on applied AI and data science in Nepal.",
-    "image": "assets/img/event-seminar.svg",
+    "description": "Dr Tej Bahadur Shahi introduces HIDI's flagship research theme: from real-time satellite monitoring of grassland and vegetation health to interpretable models and a foundational GeoAI model for Nepal's SDGs. Free to attend.",
+    "image": "assets/img/research/pasture-clusters-multiyear.jpg",
+    "registration": "#contact"
+  },
+  {
+    "id": "seminar-nepali-nlp",
+    "title": "Seminar: Nepali and code-mixed text, from POS tagging to NepEMO",
+    "type": "Seminar",
+    "date": "",
+    "time": "",
+    "location": "Online",
+    "description": "A decade of Nepali NLP research, the NepEMO emotion dataset, and open problems for low-resource and code-mixed languages. Free to attend.",
+    "image": "assets/img/research/nepemo-emotions.png",
     "registration": "#contact"
   },
   {
@@ -17,19 +28,30 @@
     "date": "",
     "time": "",
     "location": "Online",
-    "description": "Four to six weeks of live sessions, practical assignments and a final mini-project. 10–15 places.",
-    "image": "assets/img/event-course.svg",
+    "description": "Four to six weeks of live sessions, practical assignments using real Nepali datasets, and a final mini-project. 10–15 places.",
+    "image": "assets/img/research/nepemo-trends.png",
     "registration": "#contact"
   },
   {
-    "id": "annual-workshop-2027",
-    "title": "NAiDS Annual Workshop on AI and Data Science",
+    "id": "uav-workshop-2027",
+    "title": "Hands-on workshop: drones and machine learning for crop monitoring",
     "type": "Workshop",
     "date": "",
     "time": "",
     "location": "Kathmandu, with partner universities",
-    "description": "Tutorials, keynote talks and student paper and poster sessions, run with partner universities.",
-    "image": "assets/img/event-workshop.svg",
+    "description": "From flight planning and multispectral imagery to vegetation indices and deep-learning models for disease and weed detection. For students, researchers and agricultural professionals.",
+    "image": "assets/img/research/uav-weed-samples.jpg",
+    "registration": "#contact"
+  },
+  {
+    "id": "annual-workshop-2027",
+    "title": "HIDI Annual Workshop on Data Intelligence",
+    "type": "Workshop",
+    "date": "",
+    "time": "",
+    "location": "Kathmandu, with partner universities",
+    "description": "Tutorials, keynote talks, and student paper and poster sessions on explainable GeoAI, drones for agriculture, multi-modal data intelligence and low-resource NLP.",
+    "image": "assets/img/research/pasture-clusters-panel.jpg",
     "registration": "#contact"
   }
 ]

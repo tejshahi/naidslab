@@ -1,23 +1,44 @@
-Nepal's landscape changes from the Terai plains to the high Himalaya within a few hundred kilometres. That diversity makes field surveys slow and expensive. **Satellite data and machine learning** offer a way to watch the land at scale.
+Nepal rises from about 60 metres above sea level in the Terai to 8,848 metres at the summit of Everest, across a country only 150–250 kilometres wide from south to north. That makes it one of the hardest places on Earth to map from space, and one of the places that would gain most from doing it well. This post sets out why a **foundational GeoAI model for the Sustainable Development Goals (SDGs)** sits at the heart of our flagship programme, explainable GeoAI for Earth observation.
 
-## Free data, every few days
+## The problem: models that don't travel
 
-Missions such as **Sentinel-2** and **Landsat 8/9** provide free multispectral imagery that revisits the same place every few days. Vegetation indices such as NDVI summarise how green and productive the land is, season by season.
+Free satellite missions such as **Sentinel-1**, **Sentinel-2** and **Landsat** image every part of Nepal every few days. But most land-cover and crop models are trained on flat, well-labelled landscapes in Europe, North America or China. In Nepal they meet:
 
-## What machine learning adds
+- steep terrain that casts long shadows,
+- monsoon cloud that hides the ground for months,
+- small, mixed fields, often only a few pixels across, and
+- very few labelled field samples to train or test on.
 
-Raw imagery is noisy: clouds, shadows from steep terrain and different sensor resolutions all get in the way. Deep learning models can:
+## The idea: pre-train once, adapt many times
 
-1. **Fuse** data from different satellites to fill gaps and sharpen resolution.
-2. **Classify** land cover, crop types and pasture types from spectral and temporal patterns.
-3. **Estimate** quantities such as crop yield or biomass from imagery and field samples.
+A **geospatial foundation model** learns general patterns from large amounts of *unlabelled* imagery, such as how a rice paddy changes through the season or how a forest edge looks under cloud. It can then be fine-tuned for a specific task with only a small number of local labels. One model could support many SDG indicators:
 
-## Where it can help in Nepal
+| SDG | Example task |
+|---|---|
+| 2 Zero hunger | Crop type and crop condition mapping |
+| 6 Clean water | Surface water and irrigation mapping |
+| 11 Sustainable cities | Urban expansion around Kathmandu, Pokhara and the Terai |
+| 13 Climate action | Glacial lakes, floods and landslide mapping |
+| 15 Life on land | Forest and rangeland condition |
 
-- Monitoring crop health and estimating yields for food security planning
-- Mapping pasture and rangeland condition in hill and mountain districts
-- Tracking land-use change and supporting disaster response after floods and landslides
+## What we have already shown
 
-## What comes next
+The programme builds directly on the founder's published work:
 
-The Lab's **Geospatial AI** and **AI for Agriculture** programmes will develop methods and open datasets for Nepal-specific conditions. If you hold field data, or work on agriculture or land management, [get in touch](#contact) about collaboration.
+- **Fusing sensors.** A deep-learning framework that fuses Landsat 8 and Sentinel-2 NDVI to produce consistent time series (Mishra & Shahi, *Journal of Applied Remote Sensing*, 2021).
+- **Learning without labels.** Pasture types mapped from multi-temporal Sentinel-2 imagery by object-based clustering, reaching normalised mutual information of 86–88% against reference data over about 2,510 ha, with no labelled training data (Shahi et al., *Remote Sensing*, 2025). The code is [open on GitHub](https://github.com/tejshahi/OBIA-clusters-v2).
+- **Knowing the field.** Reviews of spatial deep learning (2022) and of pasture monitoring with remote sensing and machine learning (2025).
+
+![Quick-shift segments over satellite imagery, the first step of object-based pasture mapping (Shahi et al., Remote Sensing, 2025, CC BY)](assets/img/research/pasture-segments.jpg)
+
+## Our research agenda
+
+1. Assemble a multi-sensor, multi-year image archive covering the Terai, hills and mountains.
+2. Pre-train a foundation model with self-supervised learning, designed for terrain and cloud.
+3. Build **open Nepal benchmarks** for crop type, rangeland, forest, urban, water and hazard mapping.
+4. Develop label-efficient adaptation: clustering, few-shot and active learning.
+5. Co-design SDG indicator maps and dashboards with government, NGO and university partners.
+
+## Work with us
+
+We are looking for partners who hold field data, work on land, water or climate in Nepal, or fund open geospatial research. [Get in touch](#contact) to discuss a collaboration or a joint grant application.

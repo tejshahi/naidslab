@@ -1,35 +1,46 @@
 [
   {
-    "slug": "welcome-to-naids-lab",
-    "title": "Welcome to NAiDS Lab",
-    "date": "2026-11-14",
+    "slug": "welcome-to-hidi",
+    "title": "Welcome to HIDI, the Himalayan Institute for Data Intelligence",
+    "date": "2026-11-15",
     "author": "Dr Tej Bahadur Shahi",
     "category": "News",
-    "tags": ["Announcement"],
-    "image": "assets/img/post-welcome.svg",
-    "excerpt": "Introducing a new not-for-profit research lab for AI and data science in Nepal: what we will research, teach and build.",
+    "tags": ["Announcement", "Research agenda"],
+    "image": "assets/img/research/pasture-clusters-panel.jpg",
+    "excerpt": "A new not-for-profit institute bridging data, algorithms and applications, with explainable AI for Earth observation at its core: our vision, four research themes and how to get involved.",
     "featured": true
   },
   {
     "slug": "geospatial-ai-for-nepal",
-    "title": "Why geospatial AI matters for Nepal's farms and forests",
+    "title": "Towards a foundational GeoAI model for Nepal's Sustainable Development Goals",
     "date": "2026-11-14",
     "author": "Dr Tej Bahadur Shahi",
     "category": "Research",
-    "tags": ["Geospatial AI", "Agriculture"],
-    "image": "assets/img/post-geospatial.svg",
-    "excerpt": "Free satellite imagery and modern machine learning can help monitor crops, pastures and land use across Nepal's difficult terrain.",
+    "tags": ["Geospatial AI", "SDGs", "Remote sensing", "Foundation models"],
+    "image": "assets/img/research/pasture-segments.jpg",
+    "excerpt": "Why models trained elsewhere fail on Nepal's terrain, and how a foundation model pre-trained on Nepal's own satellite archive could support many SDG indicators with few labels.",
+    "featured": false
+  },
+  {
+    "slug": "drones-for-nepal-farms",
+    "title": "What drones can (and can't yet) do for Nepal's farms",
+    "date": "2026-11-12",
+    "author": "Dr Tej Bahadur Shahi",
+    "category": "Research",
+    "tags": ["UAV", "Agriculture", "Deep learning"],
+    "image": "assets/img/research/uav-cotton-field.jpg",
+    "excerpt": "Five years of UAV and machine-learning research on crop disease, weeds and water stress: what worked, what still stands in the way, and our plans for smallholder farms.",
     "featured": false
   },
   {
     "slug": "python-for-research-first-steps",
-    "title": "Python for research: five first steps",
-    "date": "2026-11-14",
+    "title": "Python for research: exploring Nepali emotions with the NepEMO dataset",
+    "date": "2026-11-10",
     "author": "Dr Tej Bahadur Shahi",
     "category": "Tutorial",
-    "tags": ["Python", "Training"],
-    "image": "assets/img/post-python.svg",
-    "excerpt": "A short, practical path for researchers who want to move their analysis from spreadsheets to reproducible Python code.",
+    "tags": ["Python", "NLP", "Nepali language", "Training"],
+    "image": "assets/img/research/nepemo-trends.png",
+    "excerpt": "Load an open dataset of 4,462 Nepali Reddit posts, summarise five emotions and plot six years of trends in about 20 lines of Python.",
     "featured": false
   }
 ]

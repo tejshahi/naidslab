@@ -1,8 +1,10 @@
-# NAiDS Lab Website: Content Manual
+# HIDI Website: Content Manual
 
-How to add and change content on the NAiDS Lab website, with worked examples you can copy.
+HIDI is the **Himalayan Institute for Data Intelligence**. The GitHub repository keeps its original name, `naidslab`.
 
-- **Website:** https://tejshahi.github.io/naidslab/ (later https://naidslab.org)
+How to add and change content on the HIDI website, with worked examples you can copy.
+
+- **Website:** https://tejshahi.github.io/naidslab/ (later https://hidi.org)
 - **Repository:** https://github.com/tejshahi/naidslab
 
 ---
@@ -32,7 +34,7 @@ The site is a set of plain files. GitHub Pages publishes whatever is in the repo
 ```
 naidslab/
 ├── index.html                 Page shell: header menu, footer
-├── CNAME                      Custom domain (only once naidslab.org is bought)
+├── CNAME                      Custom domain (only once hidi.org is bought)
 ├── README.md                  Short technical notes
 ├── CONTENT-MANUAL.md          This manual
 ├── assets/
@@ -132,7 +134,7 @@ The three are linked by the **slug**: a short, lowercase name with hyphens and n
 Open `posts` → **Add file → Create new file**. Name it `field-trip-jumla.md` and paste in your text, for example:
 
 ```markdown
-In November, the NAiDS Lab team visited **Jumla** to collect ground-truth data
+In November, the HIDI team visited **Jumla** to collect ground-truth data
 for our Geospatial AI programme. Field samples like these let us check what
 satellite images are telling us about crops and pastures.
 
@@ -168,7 +170,7 @@ Open `data/posts.json` and click the pencil icon. The file starts like this:
 ```json
 [
   {
-    "slug": "welcome-to-naids-lab",
+    "slug": "welcome-to-hidi",
     ...
 ```
 
@@ -190,7 +192,7 @@ Put your cursor just after the first `[`, press Enter, and paste:
 
 The comma after the closing `}` is needed, because another post follows it.
 
-Commit. After about 2 minutes, the post appears on the Blog page, on the Home page under "Latest from the Lab", and at its own address: `.../#post-field-trip-jumla`.
+Commit. After about 2 minutes, the post appears on the News & Events page, on the Home page under "Latest from HIDI", and at its own address: `.../#post-field-trip-jumla`.
 
 ### What each field means
 
@@ -315,7 +317,7 @@ Open `data/events.json` and paste after the first `[`:
 ```json
   {
     "id": "workshop-2027",
-    "title": "NAiDS Annual Workshop on AI and Data Science 2027",
+    "title": "HIDI Annual Workshop on AI and Data Science 2027",
     "type": "Workshop",
     "date": "",
     "time": "",
@@ -356,6 +358,39 @@ With `"date": ""`, the event shows a **TBA** date tile and a **Notify me** butto
 
 ---
 
+## 6a. Add or update a project
+
+Projects live in `data/projects.json` and appear on the Projects page (current and completed) and, for current projects, on the Home page.
+
+```json
+{
+  "id": "jumla-rangeland-pilot",
+  "title": "Rangeland monitoring pilot in Jumla",
+  "status": "Current",
+  "stage": "In development",
+  "period": "2027",
+  "theme": "Explainable GeoAI for Earth observation",
+  "summary": "One or two sentences on what the project does and why.",
+  "partners": "Partner organisations",
+  "outputs": ["pasture-obia-clustering-2025"],
+  "links": [["Project report (PDF)", "assets/pdf/jumla-report.pdf"]],
+  "image": "assets/img/research/pasture-segments.jpg"
+}
+```
+
+| Field | What to write |
+|---|---|
+| `status` | `Current` or `Completed`. This decides which section the project appears in. |
+| `stage` | The label on the card, such as `In development`, `Seeking partners`, `Planned` or `Completed`. Words like "Planned" and "Seeking" show an orange label; "Completed" shows grey. |
+| `outputs` | Publication `id`s from `data/publications.json`. They are listed on the card with links. |
+| `links` | Any other links, as `["Label", "URL"]` pairs. |
+
+When a current project finishes, change `status` to `Completed` and update `stage`.
+
+## 6b. Data & Tools page
+
+The datasets, code and tutorials on the Data & Tools page are listed in `const TOOLS` in `assets/js/app.js`. Each line is `[kind, title, description, link, link label, status]`. The figure gallery on the same page comes from `const CREDITS`.
+
 ## 7. Add or replace images
 
 ### Image guidelines
@@ -364,44 +399,37 @@ With `"date": ""`, the event shows a **TBA** date tile and a **Notify me** butto
 |---|---|---|
 | Blog cover and page banners | Landscape, 16:10 | 1200 × 750 px |
 | Research programme images | Landscape, 4:3 | 1200 × 900 px |
-| Dr Shahi's portrait | Square | 600 × 600 px |
+| Founder portraits | Square | 600 × 600 px |
 
 - **Formats:** `.jpg` for photos, `.png` for diagrams, `.svg` for graphics.
 - **Size:** keep each image under about 500 KB. Compress at https://squoosh.app.
 - **File names:** lowercase with hyphens and no spaces, such as `jumla-orchard.jpg`.
 - **Permission:** only use photos you took or have permission to use.
 
-### Replace a placeholder image (easiest way)
+### The site's images and where they appear
 
-The current images are placeholders labelled "PLACEHOLDER IMAGE". They are `.svg` files, and your photos will usually be `.jpg`, so upload the photo and then point the site at it:
+All page images are named once, in the `IMG` list near the top of `assets/js/app.js`. Every image is real: figures from the founder's open-access papers (reused under their CC BY licences) and charts made from the open NepEMO dataset. Their credits are in the `CREDITS` list just below `IMG`, and are shown on the Research page.
 
-1. Upload your photo as `hero.jpg` to `assets/img`.
-2. Open `assets/js/app.js`, press **Ctrl+F**, and search for `hero.svg`.
-3. Replace each `hero.svg` with `hero.jpg` (it appears twice), then commit.
+| Name in `IMG` | File in `assets/img/research/` | Source | Where it appears |
+|---|---|---|---|
+| `hero` | `pasture-clusters-panel.jpg` | Shahi et al. (2025), *Remote Sensing*, Fig. 8a | Home main image, About mission image, welcome post card |
+| `site1` | `pasture-clusters-site1.jpg` | Shahi et al. (2025), *Remote Sensing*, Fig. 8 | Inside the welcome post |
+| `geo` | `pasture-clusters-multiyear.jpg` | Shahi et al. (2025), *Remote Sensing*, Fig. 10 | GeoAI programme; Services and Support banners |
+| `segments` | `pasture-segments.jpg` | Shahi et al. (2025), *Remote Sensing*, Fig. 4 | Research, About and Organisations banners; GeoAI post |
+| `uav` | `uav-cotton-field.jpg` | Shahi et al. (2023), *Drones*, Fig. 1a | UAV programme; Blog banner; Home funding section |
+| `weeds` | `uav-weed-samples.jpg` | Shahi et al. (2023), *Drones*, Fig. 8 | Events banner |
+| `leaves` | `tomato-leaf-diseases.jpg` | Bhandari et al. (2023), *Journal of Imaging*, Fig. 1 | ML programme; Publications and Institutions banners |
+| `nlp` | `nepemo-emotions.png` | Chart from the NepEMO dataset | NLP programme |
+| `trends` | `nepemo-trends.png` | Chart from the NepEMO dataset | Python tutorial post; Training and Researchers banners |
 
-You can delete the old placeholder afterwards, but there's no need to.
+The old placeholder `.svg` files in `assets/img/` (except `favicon.svg`) are no longer used and can be deleted.
 
-### The placeholder images and where they appear
+### Replace or add an image
 
-| File | Where it appears |
-|---|---|
-| `hero.svg` | Home page main image; Contact page banner |
-| `founder.svg` | Dr Shahi's photo (About page and the author box on blog posts) |
-| `prog-geospatial.svg`, `prog-agriculture.svg`, `prog-climate.svg`, `prog-applied.svg`, `prog-nlp.svg` | Research programme images; some page banners |
-| `post-welcome.svg`, `post-geospatial.svg`, `post-python.svg` | Starter blog posts; Blog page banner |
-| `event-seminar.svg`, `event-workshop.svg`, `event-course.svg` | Events |
-| `training.svg` | Training page banner |
-| `about.svg` | About and Institutions banners |
-| `community.svg` | About page mission image |
-| `support.svg` | Home "How we're funded" image; Support page banner |
-| `favicon.svg` | The small icon in the browser tab |
-
-### Add Dr Shahi's real photo
-
-1. Prepare a square photo, `founder.jpg`, about 600 × 600 px.
-2. Upload it to `assets/img`.
-3. In `assets/js/app.js`, search for `founder.svg` (it appears twice) and change both to `founder.jpg`.
-4. Commit.
+1. Upload the new image to `assets/img/research/`, for example `jumla-field-trip.jpg`.
+2. In `assets/js/app.js`, search for `const IMG` and change the path next to the name you want to replace, or add a new line such as `jumla: "assets/img/research/jumla-field-trip.jpg",`.
+3. If the image comes from a paper or someone else, add a line to `CREDITS` with a caption, the source and the licence.
+4. For charts or diagrams that must not be cropped, add the image name to the `FIT` list.
 
 ### Put an image inside a blog post
 
@@ -486,7 +514,13 @@ Search for these names with **Ctrl+F**:
 | Search for | What it controls |
 |---|---|
 | `const CONFIG` | Email address, contact form key and exchange rate (see [section 9](#9-website-settings)) |
-| `const PROGRAMMES` | The five research programmes: titles, descriptions and bullet points |
+| `const IMG` | All page images in one place |
+| `const PROGRAMMES` | The four research programmes: title, summary, why it matters, research agenda, SDGs and the publications each builds on |
+| `const TOOLS` | Data & Tools page entries |
+| `const OBJECTIVES` | The objectives list on the About page |
+| `const PILLARS` | The four "From data to decisions" boxes (Data, Algorithms, Insight, Applications) on the Home and About pages |
+| `const RESULTS` | The "Selected results" cards |
+| `const CREDITS` | Image captions and credits |
 | `const RESEARCHER_SVC` | Services and prices on the "For researchers" page |
 | `const INST_SVC` | Service cards on the "For institutions" page |
 | `const INST_FEES` | The institutional fees table |
@@ -495,7 +529,7 @@ Search for these names with **Ctrl+F**:
 | `const PACKS` | The six launch packages on the Services page |
 | `const SERVICE_OPTIONS` | The "Enquiry about" options in the contact form |
 | `views.home` | Home page headline, introduction and statistics |
-| `views.about` | About page: mission, values, Dr Shahi's biography and terms |
+| `views.about` | About page: vision, approach, impact, values, the founder's biography and terms |
 | `Dr Shahi is a computer scientist` | The start of Dr Shahi's biography |
 | `views.support` | Support us page |
 | `views.events` | The community programmes section on the Events page |
@@ -505,7 +539,7 @@ Search for these names with **Ctrl+F**:
 Search for `Dr Shahi is a computer scientist`. You'll find a paragraph like:
 
 ```html
-<p>Dr Shahi is a computer scientist working where machine learning, image processing and remote sensing meet. He is a Postdoctoral Fellow ...</p>
+<p>Dr Shahi is a computer scientist working where machine learning, image processing and remote sensing meet. He completed a postdoctoral fellowship at QUT ...</p>
 ```
 
 Edit the words between `<p>` and `</p>`. To add another paragraph, copy a whole `<p>…</p>` line and change its text.
@@ -532,7 +566,7 @@ At the top of `assets/js/app.js`:
 
 ```js
 const CONFIG = {
-  email: "info@naidslab.org",
+  email: "info@hidi.org",
   web3formsKey: "",
   nprPerUsd: 140,
   intlFactor: 2
@@ -541,17 +575,17 @@ const CONFIG = {
 
 | Setting | What it does | Example |
 |---|---|---|
-| `email` | The address shown on the Contact page | `"info@naidslab.org"` |
+| `email` | The address shown on the Contact page | `"info@hidi.org"` |
 | `web3formsKey` | Turns on the contact form so enquiries arrive by email | `"a1b2c3d4-...."` |
 | `nprPerUsd` | The exchange rate used for US$ prices | `140` |
 | `intlFactor` | Multiplier for international prices. `2` means international clients pay double the converted NPR price; `1` gives a straight conversion. | `2` |
 
-The email address also appears as text in the footer. Search `index.html` for `info@naidslab.org` and change it there too.
+The email address also appears as text in the footer. Search `index.html` for `info@hidi.org` and change it there too.
 
 ### Turn on the contact form (free)
 
 1. Go to https://web3forms.com.
-2. Enter the email address that should receive enquiries, such as info@naidslab.org, and click **Create Access Key**.
+2. Enter the email address that should receive enquiries, such as info@hidi.org, and click **Create Access Key**.
 3. Copy the key from the email they send you.
 4. Paste it between the quotation marks:
 
@@ -563,19 +597,19 @@ The email address also appears as text in the footer. Search `index.html` for `i
 
 Without a key, visitors who press **Send enquiry** see a ready-to-copy email to send you themselves.
 
-### Connect naidslab.org later
+### Connect hidi.org later
 
 When you have bought the domain:
 
 1. Create a file named `CNAME` (all capitals, no extension) in the top folder of the repository, containing only:
 
    ```
-   naidslab.org
+   hidi.org
    ```
 
 2. Commit, then set up the DNS records in Cloudflare and tick **Enforce HTTPS** in **Settings → Pages**.
 
-**Don't add the CNAME file before you own the domain.** It redirects visitors to naidslab.org, so the site would stop working at the github.io address.
+**Don't add the CNAME file before you own the domain.** It redirects visitors to hidi.org, so the site would stop working at the github.io address.
 
 ---
 

@@ -1,6 +1,6 @@
-# NAiDS Lab website
+# HIDI website
 
-Static website for NAiDS Lab, hosted free on GitHub Pages at **naidslab.org**.
+Static website for HIDI, hosted free on GitHub Pages at **hidi.org**.
 
 ## Folder layout
 
@@ -8,7 +8,7 @@ Static website for NAiDS Lab, hosted free on GitHub Pages at **naidslab.org**.
 index.html              Page shell (header, footer)
 assets/css/style.css    Design and layout
 assets/js/app.js        All pages, plus the SETTINGS block at the top
-assets/img/             Images (placeholders: replace with real photos)
+assets/img/research/    Research figures and charts used across the site
 data/publications.json  Publications list
 data/posts.json         Blog post list
 data/events.json        Events list
@@ -102,12 +102,13 @@ If a page shows nothing after an edit, paste the file into jsonlint.com to find 
 - **`web3formsKey`**: paste a free key from web3forms.com and the contact form will email enquiries to you. Without a key, visitors are shown a ready-to-copy email instead.
 - **`nprPerUsd`** and **`intlFactor`**: control how international (US$) prices are calculated from NPR prices.
 
-## Replace placeholder images
+## Images
 
-The files in `assets/img/` are placeholders. To replace one:
+All images are real figures from the founder's open-access papers (CC BY) or charts made from the open NepEMO dataset, stored in `assets/img/research/`. They are listed once in the `IMG` block of `assets/js/app.js`, with captions and credits in `CREDITS` (shown on the Research page). See section 7 of `CONTENT-MANUAL.md` to replace or add images.
 
-1. Upload a real photo with the **same file name**, or upload it under a new name and update the reference.
-2. For Dr Shahi's photo, replace `assets/img/founder.svg`, or upload `founder.jpg` and change `founder.svg` to `founder.jpg` in `app.js`.
+## Research agenda
+
+The four programmes (Explainable GeoAI for Earth observation, the flagship, which includes a foundational GeoAI model for Nepal's SDGs; Drones and AI for agriculture; Multi-modal data intelligence for society; NLP for low-resource languages) are defined in `PROGRAMMES` in `assets/js/app.js`. Each lists the publication ids from `data/publications.json` that it builds on.
 
 ## Preview locally
 
