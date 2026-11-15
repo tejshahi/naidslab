@@ -1,66 +1,656 @@
 [
   {
-    "id": "fruit-mobilenetv2-2022",
-    "title": "Fruit classification using attention-based MobileNetV2 for industrial applications",
-    "authors": "T. B. Shahi and co-authors",
-    "venue": "PLOS One",
+    "id": "edge-genai-2026",
+    "title": "Bringing Generative AI to Edge Devices",
+    "authors": "Ramesh Shahi, Tej Bahadur Shahi, Arjun Neupane",
+    "venue": "Enhancing Edge Devices With Generative Intelligence (IGI Global)",
+    "year": 2026,
+    "type": "Book chapter",
+    "tags": [
+      "Generative AI",
+      "Edge computing"
+    ],
+    "doi": "10.4018/979-8-3373-7340-9.ch003",
+    "url": "https://doi.org/10.4018/979-8-3373-7340-9.ch003",
+    "pdf": "",
+    "code": ""
+  },
+  {
+    "id": "social-media-brand-loyalty-2026",
+    "title": "The Impact of Social Media Marketing on Brand Loyalty in Nepal: Insights from Bibliometric and Survey Analysis",
+    "authors": "Ramesh Shahi, Tej Bahadur Shahi, Bishnu Bahadur Khatri, Arjun Neupane",
+    "venue": "Journal of Theoretical and Applied Electronic Commerce Research",
+    "year": 2026,
+    "type": "Journal article",
+    "tags": [
+      "Digital business",
+      "Nepal"
+    ],
+    "doi": "10.3390/jtaer21070220",
+    "url": "https://www.mdpi.com/0718-1876/21/7/220",
+    "pdf": "",
+    "code": ""
+  },
+  {
+    "id": "agri-vision-systems-2026",
+    "title": "Intelligent Information Systems for Agriculture Based on Vision Technology",
+    "authors": "Arjun Neupane, Tej Bahadur Shahi, Richard Koech",
+    "venue": "Agronomy",
+    "year": 2026,
+    "type": "Journal article",
+    "tags": [
+      "Agriculture",
+      "Computer vision"
+    ],
+    "doi": "10.3390/agronomy16030394",
+    "url": "https://www.mdpi.com/2073-4395/16/3/394",
+    "pdf": "",
+    "code": ""
+  },
+  {
+    "id": "pasture-obia-clustering-2025",
+    "title": "Multi-Temporal Satellite Image Clustering for Pasture Type Mapping: An Object-Based Image Analysis Approach",
+    "authors": "Tej Bahadur Shahi, Richi Nayak, Alan Woodley, Juan Pablo Guerschman, Kenneth Sabir",
+    "venue": "Remote Sensing",
+    "year": 2025,
+    "type": "Journal article",
+    "tags": [
+      "Remote sensing",
+      "Geospatial AI",
+      "Agriculture"
+    ],
+    "doi": "10.3390/rs17213601",
+    "url": "https://www.mdpi.com/2072-4292/17/21/3601",
+    "pdf": "",
+    "code": "https://github.com/tejshahi/OBIA-clusters-v2"
+  },
+  {
+    "id": "pasture-monitoring-review-2025",
+    "title": "Pasture monitoring using remote sensing and machine learning: A review of methods and applications",
+    "authors": "Tej Bahadur Shahi, Thirunavukarasu Balasubramaniam, Kenneth Sabir, Richi Nayak",
+    "venue": "Remote Sensing Applications: Society and Environment",
+    "year": 2025,
+    "type": "Journal article",
+    "tags": [
+      "Remote sensing",
+      "Agriculture",
+      "Review"
+    ],
+    "doi": "10.1016/j.rsase.2025.101459",
+    "url": "https://doi.org/10.1016/j.rsase.2025.101459",
+    "pdf": "",
+    "code": ""
+  },
+  {
+    "id": "tomato-irrigation-2025",
+    "title": "Deep Learning-Based Method for Irrigation Status Detection in Tomato Using Plant Leaves",
+    "authors": "Tej Bahadur Shahi, Chiranjibi Sitaula, Krishna Prasad Bhandari, Shobha Poudel, Rupesh Bhandari, Ravindra Mishra, Bharat Kumar Sharma, Bhogendra Mishra",
+    "venue": "IEEE Transactions on Artificial Intelligence",
+    "year": 2025,
+    "type": "Journal article",
+    "tags": [
+      "Agriculture",
+      "Computer vision",
+      "Deep learning"
+    ],
+    "doi": "10.1109/TAI.2025.3528926",
+    "url": "https://doi.org/10.1109/TAI.2025.3528926",
+    "pdf": "",
+    "code": ""
+  },
+  {
+    "id": "nepali-sentiment-hybrid-2025",
+    "title": "Sentiment analysis of Nepali social media text with a hybrid deep learning model",
+    "authors": "Sameer Sitoula, Tej Bahadur Shahi, Santoso Wibowo, Arjun Neupane",
+    "venue": "Social Network Analysis and Mining",
+    "year": 2025,
+    "type": "Journal article",
+    "tags": [
+      "NLP",
+      "Nepali language"
+    ],
+    "doi": "10.1007/s13278-025-01508-w",
+    "url": "https://link.springer.com/article/10.1007/s13278-025-01508-w",
+    "pdf": "",
+    "code": ""
+  },
+  {
+    "id": "mobile-game-tam-2025",
+    "title": "Examining adoption of mobile game in Nepal with extended TAM",
+    "authors": "Arjun Neupane, Nawaraj Paudel, Keshav Poudel, Tej Bahadur Shahi",
+    "venue": "International Journal of Business Information Systems",
+    "year": 2025,
+    "type": "Journal article",
+    "tags": [
+      "Digital business",
+      "Nepal"
+    ],
+    "doi": "10.1504/IJBIS.2025.146596",
+    "url": "https://doi.org/10.1504/IJBIS.2025.146596",
+    "pdf": "",
+    "code": ""
+  },
+  {
+    "id": "nepemo-2025",
+    "title": "NepEMO: A Multi-Label Emotion and Sentiment Analysis on Nepali Reddit with Linguistic Insights and Temporal Trends",
+    "authors": "Sameer Sitoula, Tej Bahadur Shahi, Laxmi Prasad Bhatt, Anisha Pokhrel, Arjun Neupane",
+    "venue": "arXiv preprint arXiv:2512.22823",
+    "year": 2025,
+    "type": "Preprint",
+    "tags": [
+      "NLP",
+      "Nepali language",
+      "Dataset"
+    ],
+    "doi": "10.48550/arXiv.2512.22823",
+    "url": "https://arxiv.org/abs/2512.22823",
+    "pdf": "",
+    "code": "https://github.com/tejshahi/Nepali-Reddit-NepEMO-"
+  },
+  {
+    "id": "uav-crop-health-2024",
+    "title": "Applicability of UAV in Crop Health Monitoring Using Machine Learning Techniques",
+    "authors": "Tej Bahadur Shahi, Ram Bahadur Khadka, Arjun Neupane",
+    "venue": "Applications of Machine Learning in UAV Networks (IGI Global)",
+    "year": 2024,
+    "type": "Book chapter",
+    "tags": [
+      "UAV",
+      "Agriculture"
+    ],
+    "doi": "10.4018/979-8-3693-0578-2.ch010",
+    "url": "https://doi.org/10.4018/979-8-3693-0578-2.ch010",
+    "pdf": "",
+    "code": ""
+  },
+  {
+    "id": "genai-higher-education-2024",
+    "title": "Threading the GenAI needle: Unpacking the ups and downs of GenAI for higher education stakeholders",
+    "authors": "Arjun Neupane, Tej Bahadur Shahi, Michael Cowling, Dushyant Tanna",
+    "venue": "Journal of Applied Learning and Teaching",
+    "year": 2024,
+    "type": "Journal article",
+    "tags": [
+      "Generative AI",
+      "Education"
+    ],
+    "doi": "10.37074/jalt.2024.7.2.4",
+    "url": "https://doi.org/10.37074/jalt.2024.7.2.4",
+    "pdf": "",
+    "code": ""
+  },
+  {
+    "id": "peanut-lls-2023",
+    "title": "A cooperative scheme for late leaf spot estimation in peanut using UAV multispectral images",
+    "authors": "Tej Bahadur Shahi, Cheng-Yuan Xu, Arjun Neupane, Dayle B. Fleischfresser, Daniel J. O'Connor, Graeme C. Wright, William Guo",
+    "venue": "PLOS ONE",
+    "year": 2023,
+    "type": "Journal article",
+    "tags": [
+      "UAV",
+      "Agriculture",
+      "Remote sensing"
+    ],
+    "doi": "10.1371/journal.pone.0282486",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0282486",
+    "pdf": "",
+    "code": ""
+  },
+  {
+    "id": "peanut-yield-2023",
+    "title": "Peanut yield prediction with UAV multispectral imagery using a cooperative machine learning approach",
+    "authors": "Tej Bahadur Shahi, Cheng-Yuan Xu, Arjun Neupane, Dayle B. Fleischfresser, Daniel J. O'Connor, Graeme C. Wright, William Guo",
+    "venue": "Electronic Research Archive",
+    "year": 2023,
+    "type": "Journal article",
+    "tags": [
+      "UAV",
+      "Agriculture",
+      "Remote sensing"
+    ],
+    "doi": "10.3934/era.2023169",
+    "url": "https://www.aimspress.com/article/doi/10.3934/era.2023169",
+    "pdf": "",
+    "code": ""
+  },
+  {
+    "id": "crop-disease-uav-review-2023",
+    "title": "Recent Advances in Crop Disease Detection Using UAV and Deep Learning Techniques",
+    "authors": "Tej Bahadur Shahi, Cheng-Yuan Xu, Arjun Neupane, William Guo",
+    "venue": "Remote Sensing",
+    "year": 2023,
+    "type": "Journal article",
+    "tags": [
+      "UAV",
+      "Agriculture",
+      "Review"
+    ],
+    "doi": "10.3390/rs15092450",
+    "url": "https://www.mdpi.com/2072-4292/15/9/2450",
+    "pdf": "",
+    "code": ""
+  },
+  {
+    "id": "weed-detection-uav-2023",
+    "title": "Deep Learning-Based Weed Detection Using UAV Images: A Comparative Study",
+    "authors": "Tej Bahadur Shahi, Sweekar Dahal, Chiranjibi Sitaula, Arjun Neupane, William Guo",
+    "venue": "Drones",
+    "year": 2023,
+    "type": "Journal article",
+    "tags": [
+      "UAV",
+      "Agriculture",
+      "Computer vision"
+    ],
+    "doi": "10.3390/drones7100624",
+    "url": "https://www.mdpi.com/2504-446X/7/10/624",
+    "pdf": "",
+    "code": ""
+  },
+  {
+    "id": "botanicx-ai-2023",
+    "title": "BotanicX-AI: Identification of Tomato Leaf Diseases Using an Explanation-Driven Deep-Learning Model",
+    "authors": "Mohan Bhandari, Tej Bahadur Shahi, Arjun Neupane, Kerry Brian Walsh",
+    "venue": "Journal of Imaging",
+    "year": 2023,
+    "type": "Journal article",
+    "tags": [
+      "Agriculture",
+      "Explainable AI",
+      "Computer vision"
+    ],
+    "doi": "10.3390/jimaging9020053",
+    "url": "https://www.mdpi.com/2313-433X/9/2/53",
+    "pdf": "",
+    "code": ""
+  },
+  {
+    "id": "retinal-disease-cnn-2023",
+    "title": "Evaluating Retinal Disease Diagnosis with an Interpretable Lightweight CNN Model Resistant to Adversarial Attacks",
+    "authors": "Mohan Bhandari, Tej Bahadur Shahi, Arjun Neupane",
+    "venue": "Journal of Imaging",
+    "year": 2023,
+    "type": "Journal article",
+    "tags": [
+      "Health",
+      "Explainable AI",
+      "Computer vision"
+    ],
+    "doi": "10.3390/jimaging9100219",
+    "url": "https://www.mdpi.com/2313-433X/9/10/219",
+    "pdf": "",
+    "code": ""
+  },
+  {
+    "id": "multichannel-cnn-tweets-2023",
+    "title": "Multi-channel CNN to classify Nepali COVID-19 related tweets using hybrid features",
+    "authors": "Chiranjibi Sitaula, Tej Bahadur Shahi",
+    "venue": "Journal of Ambient Intelligence and Humanized Computing",
+    "year": 2023,
+    "type": "Journal article",
+    "tags": [
+      "NLP",
+      "Nepali language"
+    ],
+    "doi": "10.1007/s12652-023-04692-9",
+    "url": "https://link.springer.com/article/10.1007/s12652-023-04692-9",
+    "pdf": "",
+    "code": ""
+  },
+  {
+    "id": "scene-image-review-2023",
+    "title": "Recent advances in scene image representation and classification",
+    "authors": "Chiranjibi Sitaula, Tej Bahadur Shahi, Faezeh Marzbanrad, Jagannath Aryal",
+    "venue": "Multimedia Tools and Applications",
+    "year": 2023,
+    "type": "Journal article",
+    "tags": [
+      "Computer vision",
+      "Review"
+    ],
+    "doi": "10.1007/s11042-023-15005-9",
+    "url": "https://link.springer.com/article/10.1007/s11042-023-15005-9",
+    "pdf": "",
+    "code": ""
+  },
+  {
+    "id": "monkeypox-detection-2022",
+    "title": "Monkeypox Virus Detection Using Pre-trained Deep Learning-based Approaches",
+    "authors": "Chiranjibi Sitaula, Tej Bahadur Shahi",
+    "venue": "Journal of Medical Systems",
     "year": 2022,
     "type": "Journal article",
-    "tags": ["Computer vision", "Agriculture"],
-    "doi": "",
-    "url": "https://tejshahi.github.io/publications",
+    "tags": [
+      "Health",
+      "Computer vision",
+      "Deep learning"
+    ],
+    "doi": "10.1007/s10916-022-01868-2",
+    "url": "https://link.springer.com/article/10.1007/s10916-022-01868-2",
+    "pdf": "",
+    "code": ""
+  },
+  {
+    "id": "cxr-xai-2022",
+    "title": "Explanatory classification of CXR images into COVID-19, Pneumonia and Tuberculosis using deep learning and XAI",
+    "authors": "Mohan Bhandari, Tej Bahadur Shahi, Birat Siku, Arjun Neupane",
+    "venue": "Computers in Biology and Medicine",
+    "year": 2022,
+    "type": "Journal article",
+    "tags": [
+      "Health",
+      "Explainable AI",
+      "Computer vision"
+    ],
+    "doi": "10.1016/j.compbiomed.2022.106156",
+    "url": "https://doi.org/10.1016/j.compbiomed.2022.106156",
+    "pdf": "",
+    "code": ""
+  },
+  {
+    "id": "precision-agri-uav-review-2022",
+    "title": "Machine learning methods for precision agriculture with UAV imagery: a review",
+    "authors": "Tej Bahadur Shahi, Cheng-Yuan Xu, Arjun Neupane, William Guo",
+    "venue": "Electronic Research Archive",
+    "year": 2022,
+    "type": "Journal article",
+    "tags": [
+      "UAV",
+      "Agriculture",
+      "Review"
+    ],
+    "doi": "10.3934/era.2022218",
+    "url": "https://www.aimspress.com/article/doi/10.3934/era.2022218",
+    "pdf": "",
+    "code": ""
+  },
+  {
+    "id": "fruit-mobilenetv2-2022",
+    "title": "Fruit classification using attention-based MobileNetV2 for industrial applications",
+    "authors": "Tej Bahadur Shahi, Chiranjibi Sitaula, Arjun Neupane, William Guo",
+    "venue": "PLOS ONE",
+    "year": 2022,
+    "type": "Journal article",
+    "tags": [
+      "Agriculture",
+      "Computer vision"
+    ],
+    "doi": "10.1371/journal.pone.0264586",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0264586",
+    "pdf": "",
+    "code": ""
+  },
+  {
+    "id": "image-encryption-2022",
+    "title": "Secure Image Encryption Using Chaotic, Hybrid Chaotic and Block Cipher Approach",
+    "authors": "Nirmal Chaudhary, Tej Bahadur Shahi, Arjun Neupane",
+    "venue": "Journal of Imaging",
+    "year": 2022,
+    "type": "Journal article",
+    "tags": [
+      "Image security"
+    ],
+    "doi": "10.3390/jimaging8060167",
+    "url": "https://www.mdpi.com/2313-433X/8/6/167",
+    "pdf": "",
+    "code": ""
+  },
+  {
+    "id": "nepali-summarization-2022",
+    "title": "Attention based Recurrent Neural Network for Nepali Text Summarization",
+    "authors": "Bipin Timalsina, Nawaraj Paudel, Tej Bahadur Shahi",
+    "venue": "Journal of Institute of Science and Technology",
+    "year": 2022,
+    "type": "Journal article",
+    "tags": [
+      "NLP",
+      "Nepali language"
+    ],
+    "doi": "10.3126/jist.v27i1.46709",
+    "url": "https://www.nepjol.info/index.php/JIST/article/view/46709",
+    "pdf": "",
+    "code": ""
+  },
+  {
+    "id": "hybrid-features-tweets-2022",
+    "title": "A Hybrid Feature Extraction Method for Nepali COVID-19-Related Tweets Classification",
+    "authors": "Tej Bahadur Shahi, Chiranjibi Sitaula, Nawaraj Paudel",
+    "venue": "Computational Intelligence and Neuroscience",
+    "year": 2022,
+    "type": "Journal article",
+    "tags": [
+      "NLP",
+      "Nepali language"
+    ],
+    "doi": "10.1155/2022/5681574",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1155/2022/5681574",
+    "pdf": "",
+    "code": ""
+  },
+  {
+    "id": "spatial-deep-learning-2022",
+    "title": "Methods in the spatial deep learning: current status and future direction",
+    "authors": "Bhogendra Mishra, Ashok Dahal, Nirajan Luintel, Tej Bahadur Shahi, Saroj Panthi, Shiva Pariyar, Bhoj Raj Ghimire",
+    "venue": "Spatial Information Research",
+    "year": 2022,
+    "type": "Journal article",
+    "tags": [
+      "Geospatial AI",
+      "Deep learning",
+      "Review"
+    ],
+    "doi": "10.1007/s41324-021-00425-2",
+    "url": "https://link.springer.com/article/10.1007/s41324-021-00425-2",
     "pdf": "",
     "code": ""
   },
   {
     "id": "nepali-nlp-review-2021",
     "title": "Natural language processing for Nepali text: a review",
-    "authors": "T. B. Shahi and co-authors",
+    "authors": "Tej Bahadur Shahi, Chiranjibi Sitaula",
     "venue": "Artificial Intelligence Review",
     "year": 2021,
     "type": "Journal article",
-    "tags": ["NLP", "Nepali language"],
-    "doi": "",
-    "url": "https://tejshahi.github.io/publications",
-    "pdf": "",
-    "code": ""
-  },
-  {
-    "id": "covid-xray-fusion-2021",
-    "title": "Multi-scale feature fusion for COVID-19 detection from chest X-rays",
-    "authors": "T. B. Shahi and co-authors",
-    "venue": "Scientific Reports",
-    "year": 2021,
-    "type": "Journal article",
-    "tags": ["Computer vision", "Health"],
-    "doi": "",
-    "url": "https://tejshahi.github.io/publications",
+    "tags": [
+      "NLP",
+      "Nepali language",
+      "Review"
+    ],
+    "doi": "10.1007/s10462-021-10093-1",
+    "url": "https://link.springer.com/article/10.1007/s10462-021-10093-1",
     "pdf": "",
     "code": ""
   },
   {
     "id": "ndvi-fusion-2021",
-    "title": "Deep learning framework for Landsat 8 and Sentinel-2 NDVI data fusion",
-    "authors": "T. B. Shahi and co-authors",
+    "title": "Deep learning-based framework for spatiotemporal data fusion: an instance of Landsat 8 and Sentinel 2 NDVI",
+    "authors": "Bhogendra Mishra, Tej Bahadur Shahi",
     "venue": "Journal of Applied Remote Sensing",
     "year": 2021,
     "type": "Journal article",
-    "tags": ["Remote sensing", "Geospatial AI"],
+    "tags": [
+      "Remote sensing",
+      "Geospatial AI",
+      "Deep learning"
+    ],
+    "doi": "10.1117/1.JRS.15.034520",
+    "url": "https://journals.spiedigitallibrary.org/journals/journal-of-applied-remote-sensing/volume-15/issue-03/034520/Deep-learning-based-framework-for-spatiotemporal-data-fusion--an/10.1117/1.JRS.15.034520.full",
+    "pdf": "",
+    "code": ""
+  },
+  {
+    "id": "covid-cxr-bodvw-2021",
+    "title": "Fusion of multi-scale bag of deep visual words features of chest X-ray images to detect COVID-19 infection",
+    "authors": "Chiranjibi Sitaula, Tej Bahadur Shahi, Sunil Aryal, Faezeh Marzbanrad",
+    "venue": "Scientific Reports",
+    "year": 2021,
+    "type": "Journal article",
+    "tags": [
+      "Health",
+      "Computer vision"
+    ],
+    "doi": "10.1038/s41598-021-03287-8",
+    "url": "https://www.nature.com/articles/s41598-021-03287-8",
+    "pdf": "",
+    "code": ""
+  },
+  {
+    "id": "nepali-covid-sentiment-2021",
+    "title": "Deep Learning-Based Methods for Sentiment Analysis on Nepali COVID-19-Related Tweets",
+    "authors": "Chiranjibi Sitaula, Anish Basnet, A. Mainali, Tej Bahadur Shahi",
+    "venue": "Computational Intelligence and Neuroscience",
+    "year": 2021,
+    "type": "Journal article",
+    "tags": [
+      "NLP",
+      "Nepali language"
+    ],
+    "doi": "10.1155/2021/2158184",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1155/2021/2158184",
+    "pdf": "",
+    "code": ""
+  },
+  {
+    "id": "stock-forecasting-2020",
+    "title": "Stock Price Forecasting with Deep Learning: A Comparative Study",
+    "authors": "Tej Bahadur Shahi, Ashish Shrestha, Arjun Neupane, William Guo",
+    "venue": "Mathematics",
+    "year": 2020,
+    "type": "Journal article",
+    "tags": [
+      "Deep learning",
+      "Forecasting"
+    ],
+    "doi": "10.3390/math8091441",
+    "url": "https://www.mdpi.com/2227-7390/8/9/1441",
+    "pdf": "",
+    "code": ""
+  },
+  {
+    "id": "nepali-doc-classification-2019",
+    "title": "Nepali Text Document Classification Using Deep Neural Network",
+    "authors": "Sanjeev Subba, Nawaraj Paudel, Tej Bahadur Shahi",
+    "venue": "Tribhuvan University Journal",
+    "year": 2019,
+    "type": "Journal article",
+    "tags": [
+      "NLP",
+      "Nepali language"
+    ],
+    "doi": "10.3126/tuj.v33i1.28677",
+    "url": "https://www.nepjol.info/index.php/TUJ/article/view/28677",
+    "pdf": "",
+    "code": ""
+  },
+  {
+    "id": "nepali-sms-filtering-2018",
+    "title": "Nepali SMS filtering Using Decision Trees, Neural Network and Support Vector Machine",
+    "authors": "Tej Bahadur Shahi, Subarna Shakya",
+    "venue": "International Conference on Advances in Computing, Communication Control and Networking (ICACCCN), IEEE",
+    "year": 2018,
+    "type": "Conference paper",
+    "tags": [
+      "NLP",
+      "Nepali language"
+    ],
+    "doi": "10.1109/ICACCCN.2018.8748286",
+    "url": "https://ieeexplore.ieee.org/document/8748286",
+    "pdf": "",
+    "code": ""
+  },
+  {
+    "id": "nepse-prediction-2018",
+    "title": "Nepal Stock Exchange Prediction Using Support Vector Regression and Neural Networks",
+    "authors": "Top Bahadur Pun, Tej Bahadur Shahi",
+    "venue": "Second International Conference on Advances in Electronics, Computers and Communications (ICAECC), IEEE",
+    "year": 2018,
+    "type": "Conference paper",
+    "tags": [
+      "Machine learning",
+      "Forecasting"
+    ],
+    "doi": "10.1109/ICAECC.2018.8479456",
+    "url": "https://ieeexplore.ieee.org/document/8479456",
+    "pdf": "",
+    "code": ""
+  },
+  {
+    "id": "nepali-news-classification-2018",
+    "title": "Nepali news classification using Naïve Bayes, Support Vector Machines and Neural Networks",
+    "authors": "Tej Bahadur Shahi, Ashok Kumar Pant",
+    "venue": "International Conference on Communication Information and Computing Technology (ICCICT), IEEE",
+    "year": 2018,
+    "type": "Conference paper",
+    "tags": [
+      "NLP",
+      "Nepali language"
+    ],
+    "doi": "10.1109/ICCICT.2018.8325883",
+    "url": "https://ieeexplore.ieee.org/document/8325883",
+    "pdf": "",
+    "code": ""
+  },
+  {
+    "id": "nepali-ngram-2018",
+    "title": "Predicting Sentence using N-gram Language Model for Nepali Language",
+    "authors": "Tej Bahadur Shahi, Ananda K.C.",
+    "venue": "Recent Trends in Computer Science and Engineering (RTCSE), Bangkok",
+    "year": 2018,
+    "type": "Conference paper",
+    "tags": [
+      "NLP",
+      "Nepali language"
+    ],
     "doi": "",
     "url": "https://tejshahi.github.io/publications",
     "pdf": "",
     "code": ""
   },
   {
-    "id": "stock-forecasting-2020",
-    "title": "Stock price forecasting with deep learning: a comparative study",
-    "authors": "T. B. Shahi and co-authors",
-    "venue": "Mathematics",
-    "year": 2020,
+    "id": "nepali-sms-spam-2014",
+    "title": "Mobile SMS Spam Filtering for Nepali Text Using Naïve Bayesian and Support Vector Machine",
+    "authors": "Tej Bahadur Shahi, Abhimanu Yadav",
+    "venue": "International Journal of Intelligence Science",
+    "year": 2014,
     "type": "Journal article",
-    "tags": ["Deep learning", "Forecasting"],
-    "doi": "",
-    "url": "https://tejshahi.github.io/publications",
+    "tags": [
+      "NLP",
+      "Nepali language"
+    ],
+    "doi": "10.4236/ijis.2014.41004",
+    "url": "https://doi.org/10.4236/ijis.2014.41004",
+    "pdf": "",
+    "code": ""
+  },
+  {
+    "id": "nepali-ner-2014",
+    "title": "Named Entity Recognition for Nepali Text Using Support Vector Machines",
+    "authors": "Surya Bahadur Bam, Tej Bahadur Shahi",
+    "venue": "Intelligent Information Management",
+    "year": 2014,
+    "type": "Journal article",
+    "tags": [
+      "NLP",
+      "Nepali language"
+    ],
+    "doi": "10.4236/iim.2014.62004",
+    "url": "https://doi.org/10.4236/iim.2014.62004",
+    "pdf": "",
+    "code": ""
+  },
+  {
+    "id": "nepali-pos-tagging-2013",
+    "title": "Support Vector Machines based Part of Speech Tagging for Nepali Text",
+    "authors": "Tej Bahadur Shahi, T. N. Dhamala, B. Balami",
+    "venue": "International Journal of Computer Applications",
+    "year": 2013,
+    "type": "Journal article",
+    "tags": [
+      "NLP",
+      "Nepali language"
+    ],
+    "doi": "10.5120/12217-8374",
+    "url": "https://doi.org/10.5120/12217-8374",
     "pdf": "",
     "code": ""
   }
