@@ -1,0 +1,67 @@
+[
+  {
+    "id": "fruit-mobilenetv2-2022",
+    "title": "Fruit classification using attention-based MobileNetV2 for industrial applications",
+    "authors": "T. B. Shahi and co-authors",
+    "venue": "PLOS One",
+    "year": 2022,
+    "type": "Journal article",
+    "tags": ["Computer vision", "Agriculture"],
+    "doi": "",
+    "url": "https://tejshahi.github.io/publications",
+    "pdf": "",
+    "code": ""
+  },
+  {
+    "id": "nepali-nlp-review-2021",
+    "title": "Natural language processing for Nepali text: a review",
+    "authors": "T. B. Shahi and co-authors",
+    "venue": "Artificial Intelligence Review",
+    "year": 2021,
+    "type": "Journal article",
+    "tags": ["NLP", "Nepali language"],
+    "doi": "",
+    "url": "https://tejshahi.github.io/publications",
+    "pdf": "",
+    "code": ""
+  },
+  {
+    "id": "covid-xray-fusion-2021",
+    "title": "Multi-scale feature fusion for COVID-19 detection from chest X-rays",
+    "authors": "T. B. Shahi and co-authors",
+    "venue": "Scientific Reports",
+    "year": 2021,
+    "type": "Journal article",
+    "tags": ["Computer vision", "Health"],
+    "doi": "",
+    "url": "https://tejshahi.github.io/publications",
+    "pdf": "",
+    "code": ""
+  },
+  {
+    "id": "ndvi-fusion-2021",
+    "title": "Deep learning framework for Landsat 8 and Sentinel-2 NDVI data fusion",
+    "authors": "T. B. Shahi and co-authors",
+    "venue": "Journal of Applied Remote Sensing",
+    "year": 2021,
+    "type": "Journal article",
+    "tags": ["Remote sensing", "Geospatial AI"],
+    "doi": "",
+    "url": "https://tejshahi.github.io/publications",
+    "pdf": "",
+    "code": ""
+  },
+  {
+    "id": "stock-forecasting-2020",
+    "title": "Stock price forecasting with deep learning: a comparative study",
+    "authors": "T. B. Shahi and co-authors",
+    "venue": "Mathematics",
+    "year": 2020,
+    "type": "Journal article",
+    "tags": ["Deep learning", "Forecasting"],
+    "doi": "",
+    "url": "https://tejshahi.github.io/publications",
+    "pdf": "",
+    "code": ""
+  }
+]

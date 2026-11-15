@@ -1,0 +1,35 @@
+[
+  {
+    "slug": "welcome-to-naids-lab",
+    "title": "Welcome to NAiDS Lab",
+    "date": "2026-11-14",
+    "author": "Dr Tej Bahadur Shahi",
+    "category": "News",
+    "tags": ["Announcement"],
+    "image": "assets/img/post-welcome.svg",
+    "excerpt": "Introducing a new not-for-profit research lab for AI and data science in Nepal: what we will research, teach and build.",
+    "featured": true
+  },
+  {
+    "slug": "geospatial-ai-for-nepal",
+    "title": "Why geospatial AI matters for Nepal's farms and forests",
+    "date": "2026-11-14",
+    "author": "Dr Tej Bahadur Shahi",
+    "category": "Research",
+    "tags": ["Geospatial AI", "Agriculture"],
+    "image": "assets/img/post-geospatial.svg",
+    "excerpt": "Free satellite imagery and modern machine learning can help monitor crops, pastures and land use across Nepal's difficult terrain.",
+    "featured": false
+  },
+  {
+    "slug": "python-for-research-first-steps",
+    "title": "Python for research: five first steps",
+    "date": "2026-11-14",
+    "author": "Dr Tej Bahadur Shahi",
+    "category": "Tutorial",
+    "tags": ["Python", "Training"],
+    "image": "assets/img/post-python.svg",
+    "excerpt": "A short, practical path for researchers who want to move their analysis from spreadsheets to reproducible Python code.",
+    "featured": false
+  }
+]

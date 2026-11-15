@@ -1,0 +1,35 @@
+[
+  {
+    "id": "seminar-series-launch",
+    "title": "NAiDS Seminar Series: launch talk",
+    "type": "Seminar",
+    "date": "",
+    "time": "",
+    "location": "Online",
+    "description": "The first talk in our free online seminar series on applied AI and data science in Nepal.",
+    "image": "assets/img/event-seminar.svg",
+    "registration": "#contact"
+  },
+  {
+    "id": "python-cohort-1",
+    "title": "Python for Research and Data Science: first cohort",
+    "type": "Training",
+    "date": "",
+    "time": "",
+    "location": "Online",
+    "description": "Four to six weeks of live sessions, practical assignments and a final mini-project. 10–15 places.",
+    "image": "assets/img/event-course.svg",
+    "registration": "#contact"
+  },
+  {
+    "id": "annual-workshop-2027",
+    "title": "NAiDS Annual Workshop on AI and Data Science",
+    "type": "Workshop",
+    "date": "",
+    "time": "",
+    "location": "Kathmandu, with partner universities",
+    "description": "Tutorials, keynote talks and student paper and poster sessions, run with partner universities.",
+    "image": "assets/img/event-workshop.svg",
+    "registration": "#contact"
+  }
+]
